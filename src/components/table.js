@@ -20,7 +20,7 @@ const CustomTable = ({
         selectedHastanes.includes(item.hastane) &&
         selectedDonems.includes(item.donem) &&
         selectedPoints[0] <= item.edp &&
-        selectedPoints[1] >= item.eyp
+        selectedPoints[1] >= item.edp
     );
     setFilteredData(filtered);
   };
