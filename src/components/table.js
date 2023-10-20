@@ -1,5 +1,6 @@
 import { Table } from "antd";
 import React, { memo } from "react";
+import "../App.css";
 import output from "../data/output.json";
 import debounce from "lodash.debounce";
 
