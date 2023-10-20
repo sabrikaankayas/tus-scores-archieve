@@ -95,7 +95,7 @@ const CustomTable = ({
       onChange={onChange}
       pagination={{
         pageSize: 200, // Sayfa başına 200 satır göster
-        showSizeChanger: true, // Kullanıcının sayfa başına satır sayısını değiştirmesine izin ver
+        showSizeChanger: false, // Kullanıcının sayfa başına satır sayısını değiştirmesine izin ver
       }}
     />
   );
